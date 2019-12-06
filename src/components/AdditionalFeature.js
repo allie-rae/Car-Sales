@@ -4,6 +4,10 @@ import { addItem } from '../actions';
 
 const AdditionalFeature = props => {
 
+  const buyItem = item => {
+    // dipsatch an action here to add an item
+  };
+
   return (
     <li>
       {/* Add an onClick that will let you add a feature to your car */}
