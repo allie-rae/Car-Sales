@@ -1,6 +1,9 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { addItem } from '../actions';
 
 const AdditionalFeature = props => {
+
   return (
     <li>
       {/* Add an onClick that will let you add a feature to your car */}
@@ -10,4 +13,4 @@ const AdditionalFeature = props => {
   );
 };
 
-export default AdditionalFeature;
+export default connect(null, { addItem })(AdditionalFeature);
