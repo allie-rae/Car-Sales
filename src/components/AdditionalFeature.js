@@ -4,13 +4,6 @@ import { addItem } from '../actions';
 
 const AdditionalFeature = props => {
 
-  // const buyItem = item => {
-  //   {
-  //     type: ADD_ITEM,
-  //     payload: item
-  //   }
-  // };
-
   return (
     <li>
       {/* Add an onClick that will let you add a feature to your car */}
