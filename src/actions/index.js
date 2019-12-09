@@ -5,7 +5,6 @@ export const ADD_ITEM = 'ADD_ITEM'
 
 // Action creators
 export const addItem = item => {
-    console.log("add item", item)
     return { // Action
         type: ADD_ITEM,
         payload: item
@@ -13,7 +12,6 @@ export const addItem = item => {
 }
 
 export const removeItem = item => {
-    console.log("remove item", item)
     return {
         type: REMOVE_ITEM,
         payload: item

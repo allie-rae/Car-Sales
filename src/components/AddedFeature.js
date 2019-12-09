@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { removeItem } from '../actions';
 
 const AddedFeature = props => {
-
   return (
     <li>
       <button className="button" onClick={() => props.removeItem(props.feature)}>X</button>
